@@ -14,18 +14,18 @@ int main() {
 	scanf("%f",&a);
 
 	IMC= p/(a*a);
-		if (IMC<=19)
-			printf("\n Voce esta abaixo do peso ideal\n");
-		else if ((IMC>=20 )&& (IMC<=25))
-				printf("\n Voce esta no peso ideal.\n");			
-			else if ((IMC>=26 )&& (IMC<=30))
-       	 			printf("\n Voce esta acima do peso ideal. \n");	
-				else if (IMC>=31)
-					 printf("\n Seu indice indica obesidade\n Sua saude esta em risco\n Procure um medico\n");
+		if (IMC<=19){
+			printf("\n Voce esta abaixo do peso ideal\n");}
+		else if ((IMC>=20 )&& (IMC<=25)){
+				printf("\n Voce esta no peso ideal.\n");}			
+			else if ((IMC>=26 )&& (IMC<=30)){
+       	 			printf("\n Voce esta acima do peso ideal. \n");}	
+				else if (IMC>=31){
+					 printf("\n Seu indice indica obesidade\n Sua saude esta em risco\n Procure um medico\n");}
 		 		
 				system("pause");
 				return 0;
-	
+                           }
 	
 	
 
