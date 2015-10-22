@@ -6,11 +6,11 @@ int main() {
 	int p;
 	float a, IMC;
 	
-	printf("Digite seu peso:\n");
+	printf("Digite seu peso:(numero inteiro)\n");
 	scanf("%d",&p);
 	
 	
-	printf("Digite sua altura:\n");
+	printf("Digite sua altura(separe o metro do centimetro com um ponto):\n");
 	scanf("%f",&a);
 
 	IMC= p/(a*a);
